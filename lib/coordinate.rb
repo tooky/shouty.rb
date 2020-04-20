@@ -10,6 +10,6 @@ class Coordinate
     # TODO: actually calculate distance between the coordinates.
     #       e.g. (@x - other.x).abs
 
-    0
+    Math.sqrt((@x - other.x)**2 + (@y - other.y)**2).abs
   end
 end
